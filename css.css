@@ -1,0 +1,493 @@
+* 
+{
+    margin: 0; 
+}
+
+
+h1{
+    color: #5CDB85;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h2{
+    
+    color: rgb(204,214,246);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    color: #8892B0;
+    font-size: 16px;
+    line-height: normal;
+}
+
+body
+{
+    font-family: 'Oswald', sans-serif !important;
+    background-color: #0A192F;
+}
+
+.container
+{
+    
+}
+
+.box
+{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    margin-top: 75%;
+}
+
+.box .container{
+    position: relative;
+    top: 25%;
+    width: 90%;
+    margin: auto;
+    margin-top: 30%;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.box1
+{
+    margin-top: 50%;
+}
+
+.prev{
+    float: left;
+    width: 50px;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    padding: 8px 0 20px 0;
+    border-radius: 50%;
+}
+.next{
+    float: right;
+    width: 50px;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    padding: 8px 0 20px 0;
+    border-radius: 50%;
+}
+
+.carousel{
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+}
+
+.carousel-item{
+    height: 700px;
+    width: 1200px;
+}
+
+.carousel-item img{
+    height: 700px;
+    width: 1200px;
+    background-size: contain;
+}
+
+.box2
+{
+    height: 350px;
+    width: 90%;
+    margin: auto;
+    margin-top: 75%;
+    margin-bottom: 75%;
+}
+
+.box2 .container{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+.box2 h1{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.box2 a{
+
+}
+
+.fa 
+{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa:hover
+{
+    opacity: 0.7;
+}
+
+.fa-facebook 
+{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter 
+{
+    background: #55ACEE;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+
+@media only screen and (min-width: 250px){
+    h1{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .prev{
+        top: 43%;
+    }
+    .next{
+        top: 43%;
+    }
+    .box{
+        margin-top: 55%;
+    }
+    .box1{
+        margin-top: 90%;
+    }
+    .box2{
+        margin-top: 80%;
+        margin-bottom: 40%;
+    }
+    .carousel {
+        height: 200px;
+        width: 100%;
+    }
+    .carousel-item{
+        height: 200px;
+        width: 100%;
+    }
+    .carousel-item img{
+        height: 200px;
+        width: 100%;
+        background-size: contain;
+    }
+    .carousel .container{
+        display: none;
+    }
+    .box img{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 320px){
+    .box{
+        margin-top: 75%;
+    }
+    .box2{
+        margin-top: 60%;
+        margin-bottom: 60%;
+    }
+    .prev{
+        top: 43%;
+    }
+
+    .next{
+        top: 43%;
+    }
+}
+
+@media only screen and (min-width: 360px){
+    h1{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .box{
+        margin-top: 65%;
+    }    
+    .box1{
+        margin-top: 80%;
+    }
+    .box2{
+        margin-top: 60%;
+        margin-bottom: 50%;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    .box{
+        margin-top: 55%;
+    }
+    .box2{
+        margin-top: 75%;
+        margin-bottom: 35%;
+    }
+}
+
+@media only screen and (min-width: 390px){
+    .box{
+        margin-top: 70%;
+    }
+
+    .box1{
+        margin-top: 90%;
+    }
+
+    .box2{
+        margin-top: 80%;
+        margin-bottom: 60%;
+    }
+}
+
+@media only screen and (min-width: 400px){
+    .box{
+        margin-top: 75%;
+    }
+    .box1{
+        margin-top: 85%;
+    }
+    .box2{
+        margin-top: 100%;
+        margin-bottom: 60%;
+    }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 720px){
+    h1{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    p{
+        font-size: 18px;
+    }
+    
+    .box{
+        margin-top: 40%;
+    }
+    .box1{
+        margin-top: 50%;
+    }
+    .box2{
+        margin-top: 80%;
+        margin-bottom: 30%;
+    }
+    .carousel {
+        height: 400px;
+        width: 100%;
+    }
+    .carousel-item{
+        height: 400px;
+        width: 100%;
+    }
+    .carousel-item img{
+        height: 400px;
+        width: 100%;
+        background-size: contain;
+    }
+    .carousel .container{
+        display: block;
+    }
+    .carousel .container p{
+        font-size: 18px;
+    }
+    .carousel .container a{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 72px;
+    }
+    p{
+        font-size: 22px;
+    }
+
+    .box{
+        margin-top: 45%;
+    }
+    .box2{
+        margin-top: 60%;
+        margin-bottom: 45%;
+    }
+    .prev{
+        top: 45%;
+    }
+
+    .next{
+        top: 45%;
+    }
+    .carousel {
+        height: 500px;
+        width: 100%;
+    }
+    .carousel-item{
+        height: 500px;
+        width: 100%;
+    }
+    .carousel-item img{
+        height: 500px;
+        width: 100%;
+        background-size: contain;
+    }
+    .carousel .container{
+        display: block;
+    }
+    .carousel .container p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1180px){
+    .box{
+        margin-top: 40%;
+    }
+    .box1{
+        margin-top: 80%;
+    }
+    .box2{
+        margin-top: 60%;
+        margin-bottom: 65%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px){
+    .box{
+        margin-top: 40%;
+    }
+    .box2{
+        margin-top: 85%;
+        margin-bottom: 90%;
+    }
+    .prev{
+        top: 48%;
+    }
+
+    .next{
+        top: 48%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    p{
+        font-size: 16px;
+    }
+    .box{
+        margin-top: -15%;
+    }
+    .box1{
+        margin-top: 30%;
+    }
+    .box2{
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .box{
+        margin-top: -5%;
+    }
+    .box1{
+        margin-top: 30%;
+    }
+    .box2{
+        margin-top: 45%;
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .box{
+        margin-top: 20%;
+        margin-left: -10%;
+    }
+    .box p{
+        width: 600px;
+    }
+    .box1{
+        margin-top: 40%;
+    }
+    .box2{
+        margin-top: 40%;
+        margin-bottom: 30%;
+    }
+    .carousel {
+        height: 750px;
+        width: 100%;
+    }
+    .carousel-item{
+        height: 750px;
+        width: 100%;
+    }
+    .carousel-item img{
+        height: 750px;
+        width: 100%;
+        background-size: contain;
+    }
+    .box img{
+        height: 200px;
+        width: 450px;
+        float: right;
+        position: absolute;
+        right: -40%;
+        top: 10%;
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 1600px){
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 72px;
+    }
+    p{
+        font-size: 22px;
+    }
+
+    .box .container p{
+        width: 600px;
+    }
+    .box2{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+}
